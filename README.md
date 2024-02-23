@@ -13,4 +13,4 @@ Oi8vY2RuLmpzZGVsaXZyLm5ldC9naC9GYW5jeUJvaUwxL2RhdGF1cmktcGFzc3Rocm9
 You can use this to run javascript and bookmarklets, just follow the directions in the prompts.
 
 1. Type L in the first prompt if you are using a link, or type C if there is something you would like to script or you have it in your clipboard.
-2. Then just use paste in whatever you are gonna use.
+2. Then just write or paste in whatever you are gonna use.
