@@ -15,4 +15,4 @@ You can use this to run javascript and bookmarklets, just follow the directions 
 1. Type L in the first prompt if you are using a link, or type C if there is something you would like to script or you have it in your clipboard.
 2. Then just write or paste in whatever you are gonna use.
 
-[THIS CANNOT (EASILY) BE USED TO RUN JAVASCRIPT THAT EFFECTS COOKIES, PACKETS, AND CHROME EXTENSION SITES]
+[THIS CANNOT (EASILY) BE USED TO RUN JAVASCRIPT THAT EFFECTS COOKIES, PACKETS, AND CHROME EXTENSION SITES (data: urls have different permissions than other sites)]
