@@ -17,7 +17,7 @@ function loadduri(link){
   iframe.src = link;
   iframe.allowfullscreen = 'true';
   iframe.allowtransparency='true';
-  document.body.appendChild(css);
+  document.getElementsByTagName("head")[0].appendChild(css);
   document.body.appendChild(iframe);
   window.setInterval(() =>{
     if(iframe.style.width !== window.innerWidth){iframe.style.width = window.innerWidth;}
