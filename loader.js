@@ -1,4 +1,7 @@
 function loadduri(link){
+  const css = document.createElement('link');
+  css.rel = 'stylesheet';
+  css.href = 'https://cdn.jsdelivr.net/gh/FancyBoiL1/datauri-passthrough@master/noiframe.css';
   var iframe = document.createElement('iframe');   
   iframe.sandbox.add('allow-top-navigation');
   iframe.sandbox.add('allow-same-origin');
@@ -14,6 +17,7 @@ function loadduri(link){
   iframe.src = link;
   iframe.allowfullscreen = 'true';
   iframe.allowtransparency='true';
+  document.body.appendChild(css);
   document.body.appendChild(iframe);
   window.setInterval(() =>{
     if(iframe.style.width !== window.innerWidth){iframe.style.width = window.innerWidth;}
